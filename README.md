@@ -1,4 +1,10 @@
-### Hi there 👋
+<!-- Title -->
+
+<p align="center">
+  <img src="https://github.com/afri-bit/afri-bit/assets/20866800/518dbe97-02be-4ee2-9675-77c1970dccae" width="70%" />
+</p>
+<h1 align="center" ">👋 𝙷𝚎𝚕𝚕𝚘! 𝙸'𝚖 Afrizal</h1>
+
 
 <!--
 **afri-bit/afri-bit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
