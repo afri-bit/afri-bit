@@ -5,6 +5,9 @@
 </p>
 <h1 align="center" ">👋 𝙷𝚎𝚕𝚕𝚘! 𝙸'𝚖 Afrizal</h1>
 
+![](https://github-profile-trophy.vercel.app/?username=afri-bit&theme=onedark)
+
+![](https://github-readme-stats.vercel.app/api?username=afri-bit&show_icons=true&theme=dracula&hide_rank=false)
 
 <!--
 **afri-bit/afri-bit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
