@@ -2,9 +2,9 @@
 
 <h1 align="center" ">👋 𝙷𝚎𝚕𝚕𝚘! 𝙸'𝚖 Afrizal</h1>
 
-<p align="center">
+<h3 align="center">
   'Every Bit' is the correct way to pronounce my github nickname 😸 Let's have fun together!
-</p>
+</h3>
 
 <p align="center">
   <!-- 
