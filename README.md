@@ -1,12 +1,14 @@
 <!-- Title -->
 
+<h1 align="center" ">👋 𝙷𝚎𝚕𝚕𝚘! 𝙸'𝚖 Afrizal</h1>
+
 <p align="center">
   <!-- 
   <img src="https://github.com/afri-bit/afri-bit/assets/20866800/518dbe97-02be-4ee2-9675-77c1970dccae" width="100%" />
   -->
   <img src="https://github.com/user-attachments/assets/ed1f149d-dbae-44d3-9798-1a8f45a29ce3" width="90%" />
 </p>
-<h1 align="center" ">👋 𝙷𝚎𝚕𝚕𝚘! 𝙸'𝚖 Afrizal</h1>
+
 
 ![](https://github-profile-trophy.vercel.app/?username=afri-bit&theme=onedark)
 
