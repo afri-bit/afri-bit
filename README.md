@@ -48,7 +48,7 @@
   'Every Bit' is the correct way to pronounce my github nickname 😸 Let's have fun together!
 </h3>
 
- <div class="block" style="margin-left: auto; margin-right: auto;">
+ <div class="block" style="margin-left: auto; margin-right: auto; margin-bottom: 1rem">
     <img src="https://github.com/user-attachments/assets/ed1f149d-dbae-44d3-9798-1a8f45a29ce3" width="100%" />
  </div>
 
@@ -56,15 +56,19 @@
 ![](https://github-profile-trophy.vercel.app/?username=afri-bit&theme=onedark)
 
 
+<div style="display: flex; flex-direction: row; float: center">
+  <div style="border: 0px; margin-right: 1rem">
+    <a href="https://github-readme-stats.vercel.app/api?username=afri-bit&show_icons=true&theme=dracula&hide_rank=false">
+      <img height=180 src="https://github-readme-stats.vercel.app/api?username=afri-bit&show_icons=true&theme=dracula&hide_rank=false" />
+    </a>
+  </div>
 
-<!-- <a href="https://github-readme-stats.vercel.app/api?username=afri-bit&show_icons=true&theme=dracula&hide_rank=false">
-  <img height=180 align="center" src="https://github-readme-stats.vercel.app/api?username=afri-bit&show_icons=true&theme=dracula&hide_rank=false" />
-</a>
-<a href="https://github-readme-stats.vercel.app/api/top-langs/?username=afri-bit&theme=dracula&layout=compact">
-  <img height=180 align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=afri-bit&theme=dracula&layout=compact&hide=html,scss,stylus,blade,css,autohotkey" />
-</a> -->
-
-
+  <div style="border: 0px">
+    <a href="https://github-readme-stats.vercel.app/api/top-langs/?username=afri-bit&theme=dracula&layout=compact">
+      <img height=180 src="https://github-readme-stats.vercel.app/api/top-langs/?username=afri-bit&theme=dracula&layout=compact&hide=html,scss,stylus,blade,css,autohotkey" />
+    </a>
+  </div>
+</div>
 
 <!-- **afri-bit/afri-bit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
