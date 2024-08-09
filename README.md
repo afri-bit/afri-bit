@@ -56,7 +56,7 @@
 ![](https://github-profile-trophy.vercel.app/?username=afri-bit&theme=onedark)
 
 
-<div style="display: flex; flex-direction: row; float: center">
+<div style="display: flex; flex-direction: row; float: center; white-space: nowrap">
   <div style="border: 0px; margin-right: 1rem">
     <a href="https://github-readme-stats.vercel.app/api?username=afri-bit&show_icons=true&theme=dracula&hide_rank=false">
       <img height=180 src="https://github-readme-stats.vercel.app/api?username=afri-bit&show_icons=true&theme=dracula&hide_rank=false" />
