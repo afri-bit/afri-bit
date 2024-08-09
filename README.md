@@ -66,7 +66,7 @@ I love exploring new ideas and experimenting with concepts that come to me in th
 
 ![](https://github-profile-trophy.vercel.app/?username=afri-bit&theme=onedark)
 
-<div style="display: flex; justify-content: center">
+<div align="center">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=afri-bit&show_icons=true&theme=dracula&hide_rank=false"/>
 </div>
 
