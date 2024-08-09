@@ -53,6 +53,21 @@
 Senior Software Engineer by day, playful coding enthusiast on GitHub at night, because... why not? 💕  
 I love exploring new ideas and experimenting with concepts that come to me in the shower 🚿  or during a daydream ⭐. I guess that's what fuels creativity!
 
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/afri-bit/afri-bit/output/github-contribution-grid-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/afri-bit/afri-bit/output/github-contribution-grid-snake.svg"
+  />
+  <img
+    alt="github contribution grid snake animation"
+    src="https://raw.githubusercontent.com/afri-bit/afri-bit/output/github-contribution-grid-snake.svg"
+  />
+</picture>
+
 ### Support Me:
 
 [<img align="left" alt="PayPal" width="22px" src="https://raw.githubusercontent.com/afri-bit/afri-bit/main/assets/paypal.svg" />](https://www.paypal.com/paypalme/afribit)
