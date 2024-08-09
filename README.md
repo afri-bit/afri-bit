@@ -1,6 +1,6 @@
 <!-- Title -->
 
-<style>
+<!-- <style>
     .block {
         position: relative;
         margin: 6rem auto 0;
@@ -40,7 +40,7 @@
         filter: blur(50px);
     }
 
-</style>
+</style> -->
 
 <h1 align="center" ">👋 𝙷𝚎𝚕𝚕𝚘! 𝙸'𝚖 Afrizal</h1>
 
