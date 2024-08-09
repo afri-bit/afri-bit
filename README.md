@@ -57,13 +57,13 @@
 
 
 <div style="display: flex; flex-direction: row; float: center; white-space: nowrap">
-  <div style="border: 0px; margin-right: 1rem">
+  <div style="border: 0px; display: inline-block">
     <a href="https://github-readme-stats.vercel.app/api?username=afri-bit&show_icons=true&theme=dracula&hide_rank=false">
       <img height=180 src="https://github-readme-stats.vercel.app/api?username=afri-bit&show_icons=true&theme=dracula&hide_rank=false" />
     </a>
   </div>
 
-  <div style="border: 0px">
+  <div style="border: 0px; display: inline-block">
     <a href="https://github-readme-stats.vercel.app/api/top-langs/?username=afri-bit&theme=dracula&layout=compact">
       <img height=180 src="https://github-readme-stats.vercel.app/api/top-langs/?username=afri-bit&theme=dracula&layout=compact&hide=html,scss,stylus,blade,css,autohotkey" />
     </a>
