@@ -53,27 +53,35 @@
 Senior Software Engineer by day, playful coding enthusiast on GitHub at night, because... why not? 💕  
 I love exploring new ideas and experimenting with concepts that come to me in the shower 🚿  or during a daydream ⭐. I guess that's what fuels creativity!
 
- <div class="block" style="margin-left: auto; margin-right: auto; margin-bottom: 1rem">
+### Support Me:
+
+[<img align="left" alt="PayPal" width="22px" src="https://raw.githubusercontent.com/afri-bit/afri-bit/main/assets/paypal.svg" />](https://www.paypal.com/paypalme/afribit)
+
+<br />
+
+ <div class="block" style="margin-left: auto; margin-right: auto; margin-bottom: 1rem; margin-top: 1rem">
     <img src="https://github.com/user-attachments/assets/ed1f149d-dbae-44d3-9798-1a8f45a29ce3" width="100%" />
  </div>
 
 ![](https://github-profile-trophy.vercel.app/?username=afri-bit&theme=onedark)
 
-<!-- <img align="left" src="https://github-readme-stats.vercel.app/api?username=afri-bit&show_icons=true&theme=dracula&hide_rank=true"/>
+<div style="display: flex; justify-content: center">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=afri-bit&show_icons=true&theme=dracula&hide_rank=false"/>
+</div>
 
-<br/>
+<!-- <br/>
 
 <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=afri-bit&theme=dracula&layout=compact&hide=html,scss,stylus,blade,css,autohotkey" sytle="display: flex; height: 100%; margin-top: 20px"/> -->
 
-<div style="display: flex; flex-direction: row; margin-left: auto; margin-right: auto">
-  <div style="border: 0px; display: inline-block; margin-left: auto; margin-right: 1rem">
-      <img src="https://github-readme-stats.vercel.app/api?username=afri-bit&show_icons=true&theme=dracula&hide_rank=true" sytle="display: flex; height: 100%"/>
+<!-- <div style="display: flex; flex-direction: row; margin-left: auto; margin-right: auto">
+  <div style="border: 0px; margin-left: auto; margin-right: 1rem">
+      <img src="https://github-readme-stats.vercel.app/api?username=afri-bit&show_icons=true&theme=dracula&hide_rank=false" sytle="display: flex; height: 100%"/>
   </div>
 
-  <div style="border: 0px; display: inline-block; margin-left: auto; margin-right: auto">
+  <div style="border: 0px; margin-left: auto; margin-right: auto">
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=afri-bit&theme=dracula&layout=compact&hide=html,scss,stylus,blade,css,autohotkey" sytle="display: flex; height: 100%"/>
   </div>
-</div>
+</div> -->
 
 <!-- **afri-bit/afri-bit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
