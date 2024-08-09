@@ -59,20 +59,21 @@ I love exploring new ideas and experimenting with concepts that come to me in th
 
 ![](https://github-profile-trophy.vercel.app/?username=afri-bit&theme=onedark)
 
+<!-- <img align="left" src="https://github-readme-stats.vercel.app/api?username=afri-bit&show_icons=true&theme=dracula&hide_rank=true"/>
 
-<!-- <div style="display: flex; flex-direction: row; float: center; white-space: nowrap; margin-left: auto; margin-right: auto">
-  <div style="border: 0px; display: inline-block; margin-left: auto; margin-right: auto">
-    <a href="https://github-readme-stats.vercel.app/api?username=afri-bit&show_icons=true&theme=dracula&hide_rank=false">
-      <img src="https://github-readme-stats.vercel.app/api?username=afri-bit&show_icons=true&theme=dracula&hide_rank=false" sytle="display: flex; height: 100%"/>
-    </a>
+<br/>
+
+<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=afri-bit&theme=dracula&layout=compact&hide=html,scss,stylus,blade,css,autohotkey" sytle="display: flex; height: 100%; margin-top: 20px"/> -->
+
+<div style="display: flex; flex-direction: row; margin-left: auto; margin-right: auto">
+  <div style="border: 0px; display: inline-block; margin-left: auto; margin-right: 1rem">
+      <img src="https://github-readme-stats.vercel.app/api?username=afri-bit&show_icons=true&theme=dracula&hide_rank=true" sytle="display: flex; height: 100%"/>
   </div>
 
   <div style="border: 0px; display: inline-block; margin-left: auto; margin-right: auto">
-    <a href="https://github-readme-stats.vercel.app/api/top-langs/?username=afri-bit&theme=dracula&layout=compact" >
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=afri-bit&theme=dracula&layout=compact&hide=html,scss,stylus,blade,css,autohotkey" sytle="display: flex; height: 100%"/>
-    </a>
   </div>
-</div> -->
+</div>
 
 <!-- **afri-bit/afri-bit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
