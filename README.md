@@ -51,7 +51,7 @@
 #### I'm a Software Engineer who dives in all sorts of tech adventures!
 
 Senior Software Engineer by day, playful coding enthusiast on GitHub at night, because... why not? 💕  
-I love exploring new ideas and experimenting with concepts that come to me in the shower 🚿  or during a daydream ⭐. I guess that's what fuels creativity!
+I love exploring new ideas and experimenting with concepts that come to me under the shower 🚿  or during my daydream ⭐. I guess that's what fuels creativity!
 
 <picture>
   <source
