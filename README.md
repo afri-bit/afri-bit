@@ -75,7 +75,7 @@ I love exploring new ideas and experimenting with concepts that come to me under
 <br />
 <br />
 
-[<img align="left" alt="Patreon" width="30%" padding-left="100px" src="https://raw.githubusercontent.com/afri-bit/afri-bit/main/assets/patreon_logo.png" />](https://www.patreon.com/afri_bit)
+[<img align="left" alt="Patreon" width="30%" src="https://raw.githubusercontent.com/afri-bit/afri-bit/main/assets/patreon_logo.png" />](https://www.patreon.com/afri_bit)
 
 <br />
 <br />
