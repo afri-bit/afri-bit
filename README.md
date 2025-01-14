@@ -77,6 +77,7 @@ I love exploring new ideas and experimenting with concepts that come to me under
 
 <br />
 <br />
+<br />
 
 <div class="block" style="margin-left: auto; margin-right: auto; margin-bottom: 1rem; margin-top: 1rem">
   <img src="https://github.com/user-attachments/assets/ed1f149d-dbae-44d3-9798-1a8f45a29ce3" width="100%" />
