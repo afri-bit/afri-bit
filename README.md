@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/b69eb177-2964-4705-b754-40c99d276315)<!-- Title -->
+<!-- Title -->
 
 <!-- <style>
     .block {
