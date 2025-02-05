@@ -1,9 +1,5 @@
 <!-- Title -->
 
-<div align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=afri-bit&show_icons=true&theme=dracula&hide_rank=false"/>
-</div>
-
 <!-- <style>
     .block {
         position: relative;
@@ -88,6 +84,10 @@ I love exploring new ideas and experimenting with concepts that come to me under
 </div>
 
 ![](https://github-profile-trophy.vercel.app/?username=afri-bit&theme=onedark)
+
+<div align="center">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=afri-bit&show_icons=true&theme=dracula&hide_rank=false"/>
+</div>
 
 <!-- <br/>
 
