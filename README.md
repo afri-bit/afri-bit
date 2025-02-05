@@ -1,4 +1,4 @@
-<!-- Title -->
+![image](https://github.com/user-attachments/assets/b69eb177-2964-4705-b754-40c99d276315)<!-- Title -->
 
 <!-- <style>
     .block {
@@ -52,7 +52,7 @@
 
 Senior Software Engineer by day, playful coding enthusiast on GitHub at night, because... why not? 💕  
 I love exploring new ideas and experimenting with concepts that come to me under the shower 🚿  or during my daydream ⭐. I guess that's what fuels creativity!
-
+<!-- 
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
@@ -66,7 +66,7 @@ I love exploring new ideas and experimenting with concepts that come to me under
     alt="github contribution grid snake animation"
     src="https://raw.githubusercontent.com/afri-bit/afri-bit/output/github-contribution-grid-snake.svg"
   />
-</picture>
+</picture> -->
 
 ### Support Me:
 
