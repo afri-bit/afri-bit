@@ -49,6 +49,10 @@
   <img src="https://github.com/user-attachments/assets/0d77f907-94cf-4449-ae12-ac0a67f5bf24" width="100%" />
 </div>
 
+<!-- <p align="center">
+  <img src="https://github.com/user-attachments/assets/0d77f907-94cf-4449-ae12-ac0a67f5bf24" width="80%" />
+</p> -->
+
 <h3 align="center">
   'Every Bit' is the correct way to pronounce my github nickname 😸 Let's have fun together!
 </h3>
@@ -58,14 +62,14 @@
 Senior Software Engineer by day, playful coding enthusiast on GitHub at night, because... why not? 💕  
 I love exploring new ideas and experimenting with concepts that come to me under the shower 🚿  or during my daydream ⭐. I guess that's what fuels creativity!
 
-### Let's connect and collaborate
+### 🔗 Let's connect and collaborate
 
 ![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=black)
 ![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)
 ![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)
 ![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)
 
-### Things I Code With
+### 💻 Things I Code With 💻
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
@@ -74,7 +78,7 @@ I love exploring new ideas and experimenting with concepts that come to me under
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-### Learning
+### 👨🏻‍🎓 Learning
 
 ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
 ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
@@ -97,7 +101,7 @@ I love exploring new ideas and experimenting with concepts that come to me under
 </picture> -->
 
 <h2 align="center">
-  Support Me 🤝
+  🤝 Support Me 🤝
 </h2>
 
 [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/afri_bit)
@@ -113,7 +117,7 @@ I love exploring new ideas and experimenting with concepts that come to me under
 </div> -->
 
 <h2 align="center">
-  Github Stats ⭐
+  ⭐ Github Stats ⭐
   <!-- <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> -->
 </h2>
  
