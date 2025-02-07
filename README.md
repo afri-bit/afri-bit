@@ -75,15 +75,12 @@ I love exploring new ideas and experimenting with concepts that come to me under
 
 ### Support Me:
 
-[<img align="left" alt="PayPal" width="20%" src="https://raw.githubusercontent.com/afri-bit/afri-bit/main/assets/paypal_logo.svg" />](https://www.paypal.com/paypalme/afribit)
-
-
-[<img align="left" alt="Patreon" width="20%" src="https://raw.githubusercontent.com/afri-bit/afri-bit/main/assets/patreon_logo.png" />](https://www.patreon.com/afri_bit)
-
+[![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/afri_bit)
+[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/afri.bit)
+[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/paypalme/afribit)
+[![Github-sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA)](https://github.com/sponsors/afri-bit)
 <br />
 <br />
-<br />
-
 
 ![](https://github-profile-trophy.vercel.app/?username=afri-bit&theme=onedark)
 
