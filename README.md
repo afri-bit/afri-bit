@@ -57,6 +57,29 @@
 
 Senior Software Engineer by day, playful coding enthusiast on GitHub at night, because... why not? 💕  
 I love exploring new ideas and experimenting with concepts that come to me under the shower 🚿  or during my daydream ⭐. I guess that's what fuels creativity!
+
+### Let's connect and collaborate
+
+![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=black)
+![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)
+![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)
+![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)
+
+### Things I Code With
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+![GitHub Copilot](https://img.shields.io/badge/github_copilot-8957E5?style=for-the-badge&logo=github-copilot&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+### Learning
+
+![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
+
+
 <!-- 
 <picture>
   <source
@@ -73,20 +96,41 @@ I love exploring new ideas and experimenting with concepts that come to me under
   />
 </picture> -->
 
-### Support Me:
+<h2 align="center">
+  Support Me 🤝
+</h2>
 
 [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/afri_bit)
 [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/afri.bit)
 [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/paypalme/afribit)
 [![Github-sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA)](https://github.com/sponsors/afri-bit)
 <br />
-<br />
 
-![](https://github-profile-trophy.vercel.app/?username=afri-bit&theme=onedark)
+<!-- ![](https://github-profile-trophy.vercel.app/?username=afri-bit&theme=dracula) -->
 
-<div align="center">
+<!-- <div align="center">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=afri-bit&show_icons=true&theme=dracula&hide_rank=false"/>
-</div>
+</div> -->
+
+<h2 align="center">
+  Github Stats ⭐
+  <!-- <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> -->
+</h2>
+ 
+<!-- <br> -->
+
+![](https://github-profile-trophy.vercel.app/?username=afri-bit&theme=dracula)
+
+<br/>
+
+<p align = "center">
+  <img  src = "https://github-readme-stats.vercel.app/api?username=afri-bit&show_icons=true&theme=dracula&line_height=27">
+  <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=afri-bit&hide=html,css,java,shaderlab,kotlin,hlsl&theme=dracula">
+</p>
+
+<p align = "center">
+ <img  src="https://github-readme-streak-stats.herokuapp.com/?user=afri-bit&show_icons=true&locale=en&layout=compact&theme=dracula&line_height=0" />
+</p> 
 
 <!-- <br/>
 
