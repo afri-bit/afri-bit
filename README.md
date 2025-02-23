@@ -138,10 +138,6 @@ I love exploring new ideas and experimenting with concepts that come to me under
   <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=afri-bit&hide=html,css,java,shaderlab,kotlin,hlsl&theme=dracula">
 </p>
 
-<p align = "center">
- <img  src="https://github-readme-streak-stats.herokuapp.com/?user=afri-bit&show_icons=true&locale=en&layout=compact&theme=dracula&line_height=0" />
-</p> 
-
 <!-- <br/>
 
 <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=afri-bit&theme=dracula&layout=compact&hide=html,scss,stylus,blade,css,autohotkey" sytle="display: flex; height: 100%; margin-top: 20px"/> -->
