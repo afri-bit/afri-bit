@@ -135,7 +135,7 @@ I love exploring new ideas and experimenting with concepts that come to me under
 
 <p align = "center">
   <img  src = "https://github-readme-stats.vercel.app/api?username=afri-bit&show_icons=true&theme=dracula&line_height=27">
-  <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=afri-bit&hide=html,css,java,shaderlab,kotlin,hlsl&theme=dracula">
+  <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=afri-bit&hide=html,css,java,shaderlab,kotlin,hlsl,Dockerfile&theme=dracula">
 </p>
 
 <!-- <br/>
