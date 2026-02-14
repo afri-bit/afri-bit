@@ -1,6 +1,6 @@
 <!-- Title -->
 
-
+<style>
     .block {
         position: relative;
         margin: 6rem auto 0;
