@@ -1,6 +1,6 @@
 <!-- Title -->
 
-<style>
+<!-- <style>
     .block {
         position: relative;
         margin: 6rem auto 0;
@@ -40,7 +40,7 @@
         filter: blur(50px);
     }
 
-</style>
+</style> -->
 
 <h1 align="center">👋 𝙷𝚎𝚕𝚕𝚘! 𝙸'𝚖 Afrizal</h1>
 
@@ -90,7 +90,6 @@ I love exploring new ideas and experimenting with concepts that come to me under
 ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
 
 
-<!-- 
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
@@ -104,7 +103,7 @@ I love exploring new ideas and experimenting with concepts that come to me under
     alt="github contribution grid snake animation"
     src="https://raw.githubusercontent.com/afri-bit/afri-bit/output/github-contribution-grid-snake.svg"
   />
-</picture> -->
+</picture>
 
 <h2 align="center">
   🤝 Support Me 🤝
