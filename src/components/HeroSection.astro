@@ -1,0 +1,127 @@
+---
+import { HeroOrbit } from './react/HeroOrbit';
+import type { OrbitNode } from '../data/profile';
+
+type Props = {
+  headlinePlain: string;
+  headlineGradient: string;
+  subtitle: string[];
+  avatarSrc: string;
+  ctaLabel: string;
+  ctaHref: string;
+  secondaryCta?: { label: string; href: string };
+  orbitNodes: OrbitNode[];
+};
+
+const {
+  headlinePlain,
+  headlineGradient,
+  subtitle,
+  avatarSrc,
+  ctaLabel,
+  ctaHref,
+  secondaryCta,
+  orbitNodes,
+} = Astro.props;
+---
+
+<section
+  id="top"
+  class="relative mx-auto grid max-w-6xl gap-12 px-4 pb-24 pt-14 sm:px-6 lg:grid-cols-[1fr_1fr] lg:items-stretch lg:gap-20 lg:px-8 lg:pb-28 lg:pt-20"
+>
+  <!-- ── Left column – avatar card ── -->
+  <div class="reveal-left stagger-2 flex lg:min-h-full">
+    <div
+      class="relative flex w-full flex-col items-center justify-center overflow-hidden rounded-[2rem] px-8 py-10"
+      style="
+        background: radial-gradient(ellipse 90% 70% at 50% 40%, color-mix(in srgb, var(--glass-elevated) 80%, transparent) 0%, transparent 100%);
+        mask-image: radial-gradient(ellipse 88% 82% at 50% 46%, black 28%, transparent 100%);
+        -webkit-mask-image: radial-gradient(ellipse 88% 82% at 50% 46%, black 28%, transparent 100%);
+      "
+    >
+      <HeroOrbit client:load nodes={orbitNodes} avatarSrc={avatarSrc} />
+    </div>
+  </div>
+
+  <!-- ── Right column ── -->
+  <div class="space-y-10">
+
+    <!-- eyebrow pill -->
+    <div class="reveal stagger-1 inline-flex items-center gap-3 rounded-full border border-[var(--glass-border)] bg-[var(--glass)] px-4 py-2">
+      <span class="h-2 w-2 rounded-full bg-[var(--neon)] shadow-[0_0_14px_var(--neon-glow)]"></span>
+      <p class="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--text-soft)]">
+        Profile homepage
+      </p>
+    </div>
+
+    <!-- headline -->
+    <div class="reveal stagger-2 space-y-3">
+      <p class="section-eyebrow">Design-forward engineer</p>
+      <h1 class="max-w-2xl font-display text-5xl font-bold leading-[0.92] tracking-[-0.05em] text-[var(--text)] sm:text-6xl lg:text-[5rem]">
+        {headlinePlain}
+        <span class="block bg-gradient-to-r from-[var(--accent)] via-[var(--neon)] to-[var(--accent-dim)] bg-clip-text text-transparent sm:inline sm:pl-3">
+          {headlineGradient}
+        </span>
+      </h1>
+    </div>
+
+    <!-- subtitle -->
+    <div class="reveal stagger-3 space-y-3 text-lg leading-8 text-[var(--text-muted)]">
+      {subtitle.map((line) => <p>{line}</p>)}
+    </div>
+
+    <!-- CTAs -->
+    <div class="reveal stagger-4 flex flex-wrap gap-3">
+      <a
+        href={ctaHref}
+        class="inline-flex items-center justify-center rounded-2xl bg-gradient-to-r from-[var(--accent-dim)] to-[var(--accent)] px-6 py-3.5 text-sm font-semibold text-white shadow-[0_0_36px_var(--glow)] transition duration-300 hover:-translate-y-0.5 hover:shadow-[0_0_52px_var(--glow)]"
+      >
+        {ctaLabel}
+      </a>
+      {secondaryCta && (
+        <a
+          href={secondaryCta.href}
+          target="_blank"
+          rel="noreferrer noopener"
+          class="inline-flex items-center justify-center gap-2 rounded-2xl border border-[var(--glass-border)] bg-[var(--glass)] px-6 py-3.5 text-sm font-medium text-[var(--text)] backdrop-blur-md transition duration-300 hover:-translate-y-0.5 hover:border-[var(--neon)]/40 hover:text-[var(--neon)]"
+        >
+          {secondaryCta.label}
+          <span aria-hidden="true" class="text-[var(--neon)]">↗</span>
+        </a>
+      )}
+    </div>
+
+    <!-- compact status card -->
+    <div class="reveal stagger-5 panel-surface panel-surface-strong p-5 sm:p-6">
+      <div class="grid grid-cols-2 gap-4 sm:grid-cols-3">
+        <div>
+          <p class="text-xs uppercase tracking-[0.18em] text-[var(--text-soft)]">Mode</p>
+          <p class="mt-1.5 text-sm font-semibold text-[var(--text)]">Open to build</p>
+        </div>
+        <div>
+          <p class="text-xs uppercase tracking-[0.18em] text-[var(--text-soft)]">Focus</p>
+          <p class="mt-1.5 text-sm font-semibold text-[var(--text)]">Astro + tooling</p>
+        </div>
+        <div>
+          <p class="text-xs uppercase tracking-[0.18em] text-[var(--text-soft)]">Stack</p>
+          <p class="mt-1.5 text-sm font-semibold" style="color:var(--neon)">TS / React / Py</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- scroll indicator -->
+    <a
+      href="#profile"
+      class="reveal stagger-6 group inline-flex items-center gap-3 text-sm text-[var(--text-soft)] transition duration-300 hover:text-[var(--text)]"
+      aria-label="Scroll to profile section"
+    >
+      <span class="flex h-9 w-9 items-start justify-center overflow-hidden rounded-full border border-[var(--glass-border)] bg-[var(--surface-soft)] pb-1 pt-2">
+        <span class="scroll-cue-dot h-2 w-2 rounded-full bg-[var(--neon)] shadow-[0_0_10px_var(--neon-glow)]"></span>
+      </span>
+      <span class="flex flex-col">
+        <span class="text-xs uppercase tracking-[0.18em]">Scroll</span>
+        <span class="mt-0.5 text-[var(--text-muted)]">Explore the profile</span>
+      </span>
+    </a>
+  </div>
+</section>
