@@ -1,0 +1,49 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import HeroSection from '../components/HeroSection.astro';
+import ProfileSection from '../components/ProfileSection.astro';
+import ProjectsSection from '../components/ProjectsSection.astro';
+import StatsSection from '../components/StatsSection.astro';
+import CtaSection from '../components/CtaSection.astro';
+import Footer from '../components/Footer.astro';
+import { profile } from '../data/profile';
+---
+
+<BaseLayout title={profile.meta.title} description={profile.meta.description}>
+  <Header brand={profile.meta.brand} nav={profile.nav} />
+  <main>
+    <HeroSection
+      headlinePlain={profile.hero.headlinePlain}
+      headlineGradient={profile.hero.headlineGradient}
+      subtitle={profile.hero.subtitle}
+      avatarSrc={profile.hero.avatarSrc}
+      ctaLabel={profile.hero.cta.label}
+      ctaHref={profile.hero.cta.href}
+      secondaryCta={profile.hero.secondaryCta}
+      orbitNodes={profile.orbitNodes}
+    />
+    <ProfileSection
+      eyebrow={profile.profileSection.eyebrow}
+      title={profile.profileSection.title}
+      description={profile.profileSection.description}
+      currentlyLearning={profile.profileSection.currentlyLearning}
+      skills={profile.profileSection.skills}
+      highlights={profile.profileSection.highlights}
+      repositories={profile.profileSection.repositories}
+    />
+    <ProjectsSection
+      intro={profile.projects.intro}
+      featured={profile.projects.featured}
+      secondary={profile.projects.secondary}
+    />
+    <StatsSection stats={profile.stats} />
+    <CtaSection
+      title={profile.ctaCard.title}
+      body={profile.ctaCard.body}
+      buttonLabel={profile.ctaCard.button.label}
+      buttonHref={profile.ctaCard.button.href}
+    />
+  </main>
+  <Footer copyright={profile.footer.copyright} social={profile.footer.social} />
+</BaseLayout>
