@@ -1,0 +1,36 @@
+---
+import type { Stat } from '../data/profile';
+
+type Props = { stats: Stat[] };
+
+const { stats } = Astro.props;
+---
+
+<section id="stats" class="scroll-mt-24 px-4 py-16 sm:px-6 lg:px-8">
+  <div class="mx-auto max-w-6xl">
+    <div class="section-shell overflow-hidden rounded-[2rem] px-0 py-12">
+      <div class="reveal mb-10 px-6 sm:px-8 lg:px-10">
+        <p class="section-eyebrow">Quick context</p>
+        <h2 class="mt-3 font-display text-3xl font-bold tracking-tight text-[var(--text)] sm:text-4xl">
+          A compact read on how I work
+        </h2>
+      </div>
+      <div
+        class="grid gap-4 px-6 sm:grid-cols-3 sm:px-8 lg:px-10"
+      >
+      {
+        stats.map((stat, i) => (
+          <div class={`reveal stagger-${Math.min(i + 1, 6)} panel-surface panel-surface-strong px-5 py-6 text-center sm:text-left`}>
+            <p class="font-display text-4xl font-bold tracking-tight sm:text-5xl" style={`color: ${i % 2 === 0 ? 'var(--accent)' : 'var(--neon)'}`}>
+              {stat.value}
+            </p>
+            <p class="mt-3 text-sm font-medium uppercase tracking-[0.18em] text-[var(--text-soft)]">
+              {stat.label}
+            </p>
+          </div>
+        ))
+      }
+      </div>
+    </div>
+  </div>
+</section>

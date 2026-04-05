@@ -1,0 +1,132 @@
+---
+import type { ProfileHighlight, RepoSpotlight } from '../data/profile';
+
+type Props = {
+  eyebrow: string;
+  title: string;
+  description: string;
+  currentlyLearning: string[];
+  skills: string[];
+  highlights: ProfileHighlight[];
+  repositories: RepoSpotlight[];
+};
+
+const {
+  eyebrow,
+  title,
+  description,
+  currentlyLearning,
+  skills,
+  highlights,
+  repositories,
+} = Astro.props;
+---
+
+<section id="profile" class="section-shell scroll-mt-24 py-24 pb-32 sm:py-32 sm:pb-40">
+  <div class="mx-auto max-w-6xl space-y-24 px-4 sm:px-6 lg:px-8">
+
+    <!-- section header -->
+    <div class="reveal space-y-4">
+      <p class="section-eyebrow">{eyebrow}</p>
+      <h2 class="section-title">{title}</h2>
+      <p class="text-lg leading-8 text-[var(--text-muted)]">{description}</p>
+    </div>
+
+    <!-- ── Cluster 1: Learning ── -->
+    <div class="grid gap-10 lg:grid-cols-[0.38fr_0.62fr] lg:items-start lg:gap-16">
+      <div class="reveal lg:sticky lg:top-32">
+        <div class="flex items-center gap-3">
+          <span class="flex h-8 w-8 items-center justify-center rounded-xl text-xs font-bold" style="background:color-mix(in srgb,var(--neon) 14%,transparent);color:var(--neon);border:1px solid color-mix(in srgb,var(--neon) 35%,transparent)">01</span>
+          <p class="text-sm font-semibold uppercase tracking-[0.22em]" style="color:var(--neon)">Learning</p>
+        </div>
+        <h3 class="mt-4 font-display text-3xl font-bold tracking-tight text-[var(--text)]">What I am studying right now</h3>
+        <p class="mt-3 text-base leading-7 text-[var(--text-muted)]">
+          A live snapshot — updated as curiosity moves. Each item links to a concrete side project or experiment.
+        </p>
+      </div>
+      <ul class="space-y-4">
+        {currentlyLearning.map((item, i) => (
+          <li class={`reveal stagger-${Math.min(i + 1, 6)} panel-surface p-6`}>
+            <div class="flex gap-4">
+              <span class="mt-1 h-3 w-3 flex-none rounded-full" style="background:var(--neon);box-shadow:0 0 14px var(--neon-glow)"></span>
+              <p class="text-base leading-7 text-[var(--text-muted)]">{item}</p>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    <!-- ── Cluster 2: Skills + signals ── -->
+    <div class="reveal">
+      <div class="flex items-center gap-3">
+        <span class="flex h-8 w-8 items-center justify-center rounded-xl text-xs font-bold" style="background:color-mix(in srgb,var(--accent) 14%,transparent);color:var(--accent);border:1px solid color-mix(in srgb,var(--accent) 35%,transparent)">02</span>
+        <p class="text-sm font-semibold uppercase tracking-[0.22em] text-[var(--accent)]/90">Skills & signals</p>
+      </div>
+      <h3 class="mt-4 font-display text-3xl font-bold tracking-tight text-[var(--text)]">Core stack and working style</h3>
+
+      <div class="mt-10 grid gap-6 lg:grid-cols-2">
+        <!-- skills -->
+        <div class="panel-surface panel-surface-strong space-y-5 p-7">
+          <p class="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--text-soft)]">Skills</p>
+          <div class="flex flex-wrap gap-3">
+            {skills.map((skill) => (
+              <span class="rounded-full border border-[var(--glass-border)] bg-[var(--glass-elevated)] px-4 py-2 text-sm font-medium text-[var(--text)] transition duration-300 hover:-translate-y-0.5 hover:border-[var(--neon)]/40 hover:text-[var(--neon)]">
+                {skill}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        <!-- signals -->
+        <div class="grid gap-4">
+          {highlights.map((item, i) => (
+            <div class={`reveal stagger-${Math.min(i + 1, 6)} rounded-[1.5rem] border border-[var(--glass-border)] bg-[var(--surface-soft)] px-6 py-5`}>
+              <p class="text-xs font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">{item.label}</p>
+              <p class="mt-2 text-base font-medium text-[var(--text)]">{item.value}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Cluster 3: Repositories ── -->
+    <div class="reveal">
+      <div class="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+        <div>
+          <div class="flex items-center gap-3">
+            <span class="flex h-8 w-8 items-center justify-center rounded-xl text-xs font-bold" style="background:color-mix(in srgb,var(--accent-dim) 14%,transparent);color:var(--accent-dim);border:1px solid color-mix(in srgb,var(--accent-dim) 35%,transparent)">03</span>
+            <p class="text-sm font-semibold uppercase tracking-[0.22em]" style="color:var(--accent-dim)">Repositories</p>
+          </div>
+          <h3 class="mt-4 font-display text-3xl font-bold tracking-tight text-[var(--text)]">Start here for the fast tour</h3>
+        </div>
+        <a
+          href="https://github.com/afri-bit"
+          target="_blank"
+          rel="noreferrer noopener"
+          class="inline-flex items-center gap-2 rounded-full border border-[var(--glass-border)] bg-[var(--glass)] px-5 py-2.5 text-sm font-semibold text-[var(--accent)] transition duration-300 hover:border-[var(--accent)]/40 hover:text-[var(--neon)]"
+        >
+          Open GitHub <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+
+      <div class="mt-8 grid gap-5 md:grid-cols-3">
+        {repositories.map((repo, i) => (
+          <a
+            href={repo.href}
+            target="_blank"
+            rel="noreferrer noopener"
+            class={`reveal stagger-${Math.min(i + 1, 6)} group panel-surface p-6 transition duration-300 hover:-translate-y-1 hover:border-[var(--neon)]/35 hover:shadow-[0_28px_64px_-40px_var(--shadow-strong)]`}
+          >
+            <p class="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--text-soft)]">Repository</p>
+            <h4 class="mt-3 font-display text-xl font-semibold tracking-tight text-[var(--text)]">{repo.name}</h4>
+            <p class="mt-3 text-sm leading-7 text-[var(--text-muted)]">{repo.description}</p>
+            <span class="mt-6 inline-flex items-center gap-2 text-sm font-semibold transition duration-300 group-hover:gap-3" style="color:var(--neon)">
+              Visit <span aria-hidden="true">↗</span>
+            </span>
+          </a>
+        ))}
+      </div>
+    </div>
+
+  </div>
+</section>

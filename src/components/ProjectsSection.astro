@@ -1,0 +1,32 @@
+---
+import ProjectCard from './ProjectCard.astro';
+import type { ProjectCard as ProjectCardType } from '../data/profile';
+
+type Props = {
+  intro: { eyebrow: string; title: string; description: string };
+  featured: ProjectCardType[];
+  secondary: ProjectCardType[];
+};
+
+const { intro, featured, secondary } = Astro.props;
+---
+
+<section id="projects" class="section-shell scroll-mt-24 py-20 sm:py-24">
+  <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+    <div class="reveal mb-12">
+      <p class="section-eyebrow">
+        {intro.eyebrow}
+      </p>
+      <h2 class="section-title mt-3">
+        {intro.title}
+      </h2>
+      <p class="mt-4 text-lg leading-8 text-[var(--text-muted)]">{intro.description}</p>
+    </div>
+
+    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
+      {[...featured, ...secondary].map((project, i) => (
+        <ProjectCard project={project} revealClass={`reveal stagger-${Math.min(i + 1, 6)}`} />
+      ))}
+    </div>
+  </div>
+</section>
