@@ -42,7 +42,7 @@
 
 </style> -->
 
-<h1 align="center" ">👋 𝙷𝚎𝚕𝚕𝚘! 𝙸'𝚖 Afrizal</h1>
+<h1 align="center">👋 𝙷𝚎𝚕𝚕𝚘! 𝙸'𝚖 Afrizal</h1>
 
 <div class="block" style="margin-left: auto; margin-right: auto; margin-bottom: 1rem; margin-top: 1rem">
   <!-- <img src="https://github.com/user-attachments/assets/ed1f149d-dbae-44d3-9798-1a8f45a29ce3" width="100%" /> -->
@@ -69,7 +69,7 @@ I love exploring new ideas and experimenting with concepts that come to me under
 ![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)
 ![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)
 
-### 💻 Things I Code With 💻
+### 💻 Things I Code With
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
@@ -90,7 +90,6 @@ I love exploring new ideas and experimenting with concepts that come to me under
 ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
 
 
-<!-- 
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
@@ -104,7 +103,7 @@ I love exploring new ideas and experimenting with concepts that come to me under
     alt="github contribution grid snake animation"
     src="https://raw.githubusercontent.com/afri-bit/afri-bit/output/github-contribution-grid-snake.svg"
   />
-</picture> -->
+</picture>
 
 <h2 align="center">
   🤝 Support Me 🤝
@@ -135,12 +134,8 @@ I love exploring new ideas and experimenting with concepts that come to me under
 
 <p align = "center">
   <img  src = "https://github-readme-stats.vercel.app/api?username=afri-bit&show_icons=true&theme=dracula&line_height=27">
-  <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=afri-bit&hide=html,css,java,shaderlab,kotlin,hlsl&theme=dracula">
+  <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=afri-bit&hide=html,css,java,shaderlab,kotlin,hlsl,Dockerfile&theme=dracula">
 </p>
-
-<p align = "center">
- <img  src="https://github-readme-streak-stats.herokuapp.com/?user=afri-bit&show_icons=true&locale=en&layout=compact&theme=dracula&line_height=0" />
-</p> 
 
 <!-- <br/>
 
