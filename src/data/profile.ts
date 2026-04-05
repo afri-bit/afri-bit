@@ -227,7 +227,7 @@ export const profile: Profile = {
     copyright: `© ${new Date().getFullYear()} Afrizal. Built with Astro.`,
     social: [
       { label: 'GitHub',   href: 'https://github.com/afri-bit',                      icon: 'github'   as const },
-      { label: 'LinkedIn', href: 'https://www.linkedin.com/in/afrizal-muhammad-nur/', icon: 'linkedin' as const },
+      { label: 'LinkedIn', href: 'https://www.linkedin.com/in/afrizal-herlambang/', icon: 'linkedin' as const },
     ],
   },
 };
