@@ -1,0 +1,161 @@
+---
+import type { NavItem } from '../data/profile';
+
+type Props = { brand: string; nav: NavItem[] };
+
+const { brand, nav } = Astro.props;
+---
+
+<header
+  class="site-header sticky top-0 z-50 border-b border-[var(--glass-border)] bg-[var(--bg)]/80 backdrop-blur-2xl"
+  data-menu-open="false"
+>
+  <div
+    class="mx-auto flex max-w-6xl items-center justify-between gap-6 px-4 py-4 sm:px-6 lg:px-8"
+  >
+    <a href="#top" class="group flex items-center gap-3 text-[var(--text)]">
+      <span class="flex h-10 w-10 items-center justify-center rounded-2xl border border-[var(--glass-border)] bg-[var(--glass)] text-sm font-bold uppercase tracking-[0.2em] shadow-[0_18px_40px_-28px_var(--shadow-strong)] transition duration-300 group-hover:border-[var(--accent)]/40 group-hover:text-[var(--accent)]">
+        ab
+      </span>
+      <span>
+        <span class="block font-display text-base font-bold tracking-tight">{brand}</span>
+        <span class="block text-xs uppercase tracking-[0.2em] text-[var(--text-soft)]">
+          product engineer
+        </span>
+      </span>
+    </a>
+
+    <div class="hidden items-center gap-2 lg:flex">
+      <nav class="flex items-center gap-1 rounded-full border border-[var(--glass-border)] bg-[var(--glass)] px-2 py-2" aria-label="Primary">
+        {
+          nav.map((item) => (
+            <a
+              href={item.href}
+              class="rounded-full px-4 py-2 text-sm font-medium text-[var(--text-muted)] transition duration-300 hover:bg-[var(--surface-elevated)] hover:text-[var(--text)]"
+            >
+              {item.label}
+            </a>
+          ))
+        }
+      </nav>
+      <button
+        type="button"
+        class="theme-toggle relative inline-flex h-12 w-12 items-center justify-center rounded-full border border-[var(--glass-border)] bg-[var(--glass)] text-sm font-semibold text-[var(--text)] shadow-[0_18px_40px_-28px_var(--shadow-strong)] transition duration-300 hover:border-[var(--accent)]/40 hover:bg-[var(--glass-elevated)]"
+        data-theme-toggle
+        aria-label="Toggle dark and light theme"
+      >
+        <span class="relative h-5 w-5 overflow-hidden">
+          <span data-theme-icon="sun" class="absolute inset-0 flex items-center justify-center text-base transition duration-300">☀</span>
+          <span data-theme-icon="moon" class="absolute inset-0 flex items-center justify-center text-base transition duration-300">☾</span>
+        </span>
+      </button>
+    </div>
+
+    <div class="flex items-center gap-2 lg:hidden">
+      <button
+        type="button"
+        class="theme-toggle relative inline-flex h-12 w-12 items-center justify-center rounded-2xl border border-[var(--glass-border)] bg-[var(--glass)] text-[var(--text)] shadow-[0_18px_40px_-28px_var(--shadow-strong)] transition duration-300 hover:border-[var(--accent)]/40"
+        data-theme-toggle
+        aria-label="Toggle dark and light theme"
+      >
+        <span class="relative h-5 w-5 overflow-hidden">
+          <span data-theme-icon="sun" class="absolute inset-0 flex items-center justify-center text-base transition duration-300">☀</span>
+          <span data-theme-icon="moon" class="absolute inset-0 flex items-center justify-center text-base transition duration-300">☾</span>
+        </span>
+      </button>
+      <button
+        type="button"
+        class="inline-flex h-12 w-12 items-center justify-center rounded-2xl border border-[var(--glass-border)] bg-[var(--glass)] text-[var(--text)] shadow-[0_18px_40px_-28px_var(--shadow-strong)] transition duration-300 hover:border-[var(--accent)]/40"
+        data-menu-toggle
+        aria-expanded="false"
+        aria-label="Toggle navigation menu"
+      >
+        <span class="relative block h-5 w-5">
+          <span class="menu-line-top absolute left-0 top-0 h-0.5 w-5 rounded-full bg-current transition duration-300"></span>
+          <span class="menu-line-middle absolute left-0 top-2 h-0.5 w-5 rounded-full bg-current transition duration-300"></span>
+          <span class="menu-line-bottom absolute left-0 top-4 h-0.5 w-5 rounded-full bg-current transition duration-300"></span>
+        </span>
+      </button>
+    </div>
+  </div>
+
+  <div class="mx-auto max-w-6xl px-4 pb-4 sm:px-6 lg:hidden lg:px-8">
+    <div class="site-nav-panel overflow-hidden rounded-[1.75rem] border border-[var(--glass-border)] bg-[var(--glass)] px-2 transition-[max-height,opacity,transform,margin,border-color,padding] duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] backdrop-blur-2xl">
+      <nav class="grid gap-1 py-2" aria-label="Mobile primary">
+        {
+          nav.map((item) => (
+            <a
+              href={item.href}
+              data-menu-link
+              class="rounded-2xl px-4 py-3 text-sm font-medium text-[var(--text-muted)] transition duration-300 hover:bg-[var(--surface-elevated)] hover:text-[var(--text)]"
+            >
+              {item.label}
+            </a>
+          ))
+        }
+      </nav>
+    </div>
+  </div>
+</header>
+
+<script is:inline>
+  (() => {
+    const root = document.documentElement;
+    const header = document.querySelector('.site-header');
+    if (!(header instanceof HTMLElement)) return;
+
+    const menuButton = header.querySelector('[data-menu-toggle]');
+    const navLinks = header.querySelectorAll('[data-menu-link]');
+    const themeButtons = document.querySelectorAll('[data-theme-toggle]');
+
+    const applyTheme = (theme) => {
+      root.dataset.theme = theme;
+      themeButtons.forEach((button) => {
+        button.setAttribute('aria-pressed', String(theme === 'light'));
+      });
+    };
+
+    const setTheme = (theme) => {
+      const nextTheme = theme === 'light' ? 'light' : 'dark';
+      if (typeof window.__setPreferredTheme === 'function') {
+        window.__setPreferredTheme(nextTheme);
+      } else {
+        root.dataset.theme = nextTheme;
+        localStorage.setItem('theme', nextTheme);
+      }
+      applyTheme(nextTheme);
+    };
+
+    const readTheme = () => (root.dataset.theme === 'light' ? 'light' : 'dark');
+    const setMenuOpen = (open) => {
+      header.dataset.menuOpen = String(open);
+      if (menuButton instanceof HTMLElement) {
+        menuButton.setAttribute('aria-expanded', String(open));
+      }
+    };
+
+    applyTheme(readTheme());
+
+    themeButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        setTheme(readTheme() === 'light' ? 'dark' : 'light');
+      });
+    });
+
+    if (menuButton instanceof HTMLElement) {
+      menuButton.addEventListener('click', () => {
+        setMenuOpen(header.dataset.menuOpen !== 'true');
+      });
+    }
+
+    navLinks.forEach((link) => {
+      link.addEventListener('click', () => setMenuOpen(false));
+    });
+
+    window.addEventListener('resize', () => {
+      if (window.innerWidth >= 1024) {
+        setMenuOpen(false);
+      }
+    });
+  })();
+</script>
