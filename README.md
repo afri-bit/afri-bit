@@ -1,94 +1,150 @@
-<!-- Title -->
+<!-- Header banner -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=220&section=header&text=Afrizal%20%7C%20afri-bit&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Every%20Bit%20counts%20%F0%9F%92%BB&descAlignY=58&descSize=20" width="100%" alt="header banner" />
+</p>
 
-<!-- <style>
-    .block {
-        position: relative;
-        margin: 6rem auto 0;
-        background: linear-gradient(0deg, #000, #272727);
-        bottom: 50px;
-    }
-    .block:before,
-    .block:after {
-        content: '';
-        position: absolute;
-        left: -2px;
-        top: -2px;
-        background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000, #fb0094,
-                #0000ff, #00ff00, #ffff00, #ff0000);
-        background-size: 400%;
-        width: calc(100% + 4px);
-        height: calc(100% + 4px);
-        z-index: -1;
-        animation: steam 40s linear infinite;
-    }
+<!-- Typing animation -->
+<p align="center">
+  <a href="https://github.com/afri-bit">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=BD93F9&center=true&vCenter=true&width=700&lines=%F0%9F%91%8B+Hi%2C+I'm+Afrizal!;I+bring+vision+to+product;Turning+ideas+into+real+products;From+first+sketch+to+shipped+software;Senior+Software+Engineer+%7C+Product+Builder" alt="Typing SVG" />
+  </a>
+</p>
 
-    @keyframes steam {
-        0% {
-            background-position: 0 0;
-        }
+<p align="center">
+  <img src="https://img.shields.io/badge/pronounced-%22Every%20Bit%22-ff79c6?style=for-the-badge&logo=github&logoColor=white" alt="pronounced Every Bit" />
+  <img src="https://img.shields.io/badge/idea%20%E2%86%92%20product-50fa7b?style=for-the-badge" alt="idea to product" />
+  <img src="https://komarev.com/ghpvc/?username=afri-bit&label=Profile%20views&color=bd93f9&style=for-the-badge" alt="profile views" />
+</p>
 
-        50% {
-            background-position: 400% 0;
-        }
+<br/>
 
-        100% {
-            background-position: 0 0;
-        }
-    }
+<!-- About -->
+<h2 align="center">⚡ Who Am I? ⚡</h2>
 
-    .block:after {
-        filter: blur(50px);
-    }
+<p align="center">
+  <img src="https://raw.githubusercontent.com/afri-bit/afri-bit/main/assets/hero-ai.svg" width="100%" alt="Animated futuristic mountain landscape with a pulsing neural network" />
+</p>
 
-</style> -->
+<p align="center">
+  <b>I bring vision to product: taking an idea from the first spark to something people can actually use. 🎯</b>
+</p>
 
-<h1 align="center">👋 𝙷𝚎𝚕𝚕𝚘! 𝙸'𝚖 Afrizal</h1>
+I'm a Senior Software Engineer, but code is only one part of what I do. I care about the whole journey from **idea → vision → architecture → shipped product**. 🚀  
+I define the problem, shape the vision, make the technical decisions, and build it until it's real. Great ideas are everywhere; I'm here to turn them into products.
 
-<div class="block" style="margin-left: auto; margin-right: auto; margin-bottom: 1rem; margin-top: 1rem">
-  <!-- <img src="https://github.com/user-attachments/assets/ed1f149d-dbae-44d3-9798-1a8f45a29ce3" width="100%" /> -->
-  <img src="https://github.com/user-attachments/assets/0d77f907-94cf-4449-ae12-ac0a67f5bf24" width="100%" />
-</div>
+*(And 'Every Bit' is how you pronounce my nickname 😸)*
 
-<!-- <p align="center">
-  <img src="https://github.com/user-attachments/assets/0d77f907-94cf-4449-ae12-ac0a67f5bf24" width="80%" />
-</p> -->
+```python
+class Afrizal:
+    def __init__(self):
+        self.nickname = "afri-bit"            # pronounced "Every Bit"
+        self.role     = "Senior Software Engineer"
+        self.mission  = "Bring vision to product"
+        self.process  = ["Idea", "Vision", "Design", "Build", "Ship", "Iterate"]
+        self.learning = ["Rust 🦀", "Go 🐹"]
 
-<h3 align="center">
-  'Every Bit' is the correct way to pronounce my github nickname 😸 Let's have fun together!
-</h3>
+    def ready_to_collaborate(self) -> bool:
+        return True  # got an idea worth building? let's talk.
+```
 
-#### I'm a Software Engineer who dives in all sorts of tech adventures!
+<br/>
 
-Senior Software Engineer by day, playful coding enthusiast on GitHub at night, because... why not? 💕  
-I love exploring new ideas and experimenting with concepts that come to me under the shower 🚿  or during my daydream ⭐. I guess that's what fuels creativity!
+<!-- Products -->
+<h2 align="center">🧭 From Idea to Product 🧭</h2>
 
-### 🔗 Let's connect and collaborate
+<table align="center">
+  <tr>
+    <td align="center" width="25%"><h3>💡<br/>Idea</h3>Spot the real problem worth solving</td>
+    <td align="center" width="25%"><h3>🔭<br/>Vision</h3>Shape it into a clear product direction</td>
+    <td align="center" width="25%"><h3>🛠️<br/>Build</h3>Architect and engineer it end to end</td>
+    <td align="center" width="25%"><h3>🚀<br/>Ship</h3>Launch, learn and keep iterating</td>
+  </tr>
+</table>
 
-![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=black)
-![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)
-![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)
-![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)
+<h3 align="center">🛠️ What I'm Working On</h3>
 
-### 💻 Things I Code With
+<p align="center">
+  <img src="https://img.shields.io/badge/VSConan-in%20the%20works-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VSConan" />
+  <img src="https://img.shields.io/badge/CANdb%20Studio-in%20the%20works-bd93f9?style=for-the-badge" alt="CANdb Studio" />
+  <img src="https://img.shields.io/badge/something%20new-coming%20soon-50fa7b?style=for-the-badge" alt="Coming soon" />
+</p>
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-![GitHub Copilot](https://img.shields.io/badge/github_copilot-8957E5?style=for-the-badge&logo=github-copilot&logoColor=white)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green)
-![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![ROS](https://img.shields.io/badge/ros-%230A0FF9.svg?style=for-the-badge&logo=ros&logoColor=white)
-![Google Gemini](https://img.shields.io/badge/google%20gemini-8E75B2?style=for-the-badge&logo=google%20gemini&logoColor=white)
-![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
+<p align="center"><i>👀 More details coming soon. Stay tuned!</i></p>
 
-### 👨🏻‍🎓 Learning
+<br/>
 
-![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
-![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
+<!-- Connect -->
+<h2 align="center">🔗 Let's Connect & Collaborate 🔗</h2>
 
+<p align="center">
+  <a href="https://instagram.com/afribit.tech"><img src="https://img.shields.io/badge/Instagram-%40afribit.tech-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://x.com/afri_bit"><img src="https://img.shields.io/badge/X-%40afri__bit-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+  <a href="mailto:afribit.tech@gmail.com"><img src="https://img.shields.io/badge/Gmail-afribit.tech%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
+</p>
+
+<br/>
+
+<!-- Tech stack -->
+<h2 align="center">💻 Things I Code With 💻</h2>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
+  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/ros-%230A0FF9.svg?style=for-the-badge&logo=ros&logoColor=white" />
+  <img src="https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+  <br/>
+  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white" />
+</p>
+
+<h3 align="center">🤖 AI Tools & Editors</h3>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude Code" />
+  <img src="https://img.shields.io/badge/GitHub%20Copilot-8957E5?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="GitHub Copilot" />
+  <img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor" />
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
+  <br/>
+  <img src="https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green" />
+  <img src="https://img.shields.io/badge/google%20gemini-8E75B2?style=for-the-badge&logo=google%20gemini&logoColor=white" />
+  <img src="https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white" />
+</p>
+
+<h3 align="center">🌱 Currently Learning</h3>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white" />
+  <img src="https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white" />
+</p>
+
+<br/>
+
+<!-- Stats -->
+<h2 align="center">📊 GitHub Stats 📊</h2>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=afri-bit&show_icons=true&theme=dracula&line_height=27" height="180" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=afri-bit&hide=html,css,java,shaderlab,kotlin,hlsl,Dockerfile&theme=dracula&layout=compact" height="180" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=afri-bit&theme=dracula&hide_border=true" height="170" alt="GitHub streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=afri-bit&theme=dracula&no-frame=true&row=1&column=7" alt="Trophies" />
+</p>
+
+<!-- Activity graph -->
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=afri-bit&theme=dracula&hide_border=true&area=true&custom_title=Contribution%20Graph" width="100%" alt="Activity graph" />
+</p>
+
+<br/>
+
+<!-- Snake -->
+<h2 align="center">🐍 Snake Eats My Contributions 🐍</h2>
 
 <picture>
   <source
@@ -105,61 +161,25 @@ I love exploring new ideas and experimenting with concepts that come to me under
   />
 </picture>
 
-<h2 align="center">
-  🤝 Support Me 🤝
-</h2>
-
-[![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/afri_bit)
-[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/afri.bit)
-[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/paypalme/afribit)
-[![Github-sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA)](https://github.com/sponsors/afri-bit)
-<br />
-
-<!-- ![](https://github-profile-trophy.vercel.app/?username=afri-bit&theme=dracula) -->
-
-<!-- <div align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=afri-bit&show_icons=true&theme=dracula&hide_rank=false"/>
-</div> -->
-
-<h2 align="center">
-  ⭐ Github Stats ⭐
-  <!-- <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> -->
-</h2>
- 
-<!-- <br> -->
-
-![](https://github-profile-trophy.vercel.app/?username=afri-bit&theme=dracula)
-
+<br/>
 <br/>
 
-<p align = "center">
-  <img  src = "https://github-readme-stats.vercel.app/api?username=afri-bit&show_icons=true&theme=dracula&line_height=27">
-  <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=afri-bit&hide=html,css,java,shaderlab,kotlin,hlsl,Dockerfile&theme=dracula">
+<!-- Quote -->
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula" alt="Random dev quote" />
 </p>
 
-<!-- <br/>
+<!-- Support -->
+<h2 align="center">🤝 Support Me 🤝</h2>
 
-<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=afri-bit&theme=dracula&layout=compact&hide=html,scss,stylus,blade,css,autohotkey" sytle="display: flex; height: 100%; margin-top: 20px"/> -->
+<p align="center">
+  <a href="https://www.patreon.com/afri_bit"><img src="https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white" alt="Patreon" /></a>
+  <a href="https://buymeacoffee.com/afri.bit"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee" /></a>
+  <a href="https://www.paypal.com/paypalme/afribit"><img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal" /></a>
+  <a href="https://github.com/sponsors/afri-bit"><img src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA" alt="GitHub Sponsors" /></a>
+</p>
 
-<!-- <div style="display: flex; flex-direction: row; margin-left: auto; margin-right: auto">
-  <div style="border: 0px; margin-left: auto; margin-right: 1rem">
-      <img src="https://github-readme-stats.vercel.app/api?username=afri-bit&show_icons=true&theme=dracula&hide_rank=false" sytle="display: flex; height: 100%"/>
-  </div>
-
-  <div style="border: 0px; margin-left: auto; margin-right: auto">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=afri-bit&theme=dracula&layout=compact&hide=html,scss,stylus,blade,css,autohotkey" sytle="display: flex; height: 100%"/>
-  </div>
-</div> -->
-
-<!-- **afri-bit/afri-bit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ... -->
+<!-- Footer -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=120&section=footer" width="100%" alt="footer" />
+</p>
