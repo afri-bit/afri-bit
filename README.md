@@ -52,14 +52,9 @@ class Afrizal:
 <!-- Products -->
 <h2 align="center">🧭 From Idea to Product 🧭</h2>
 
-<table align="center">
-  <tr>
-    <td align="center" width="25%"><h3>💡<br/>Idea</h3>Spot the real problem worth solving</td>
-    <td align="center" width="25%"><h3>🔭<br/>Vision</h3>Shape it into a clear product direction</td>
-    <td align="center" width="25%"><h3>🛠️<br/>Build</h3>Architect and engineer it end to end</td>
-    <td align="center" width="25%"><h3>🚀<br/>Ship</h3>Launch, learn and keep iterating</td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/afri-bit/afri-bit/main/assets/idea-to-product.svg" width="100%" alt="Animated pipeline: Idea, Vision, Build, Ship" />
+</p>
 
 <h3 align="center">🛠️ What I'm Working On</h3>
 
@@ -88,34 +83,19 @@ class Afrizal:
 <h2 align="center">💻 Things I Code With 💻</h2>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
-  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/ros-%230A0FF9.svg?style=for-the-badge&logo=ros&logoColor=white" />
-  <img src="https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white" />
-  <br/>
-  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white" />
+  <img src="https://raw.githubusercontent.com/afri-bit/afri-bit/main/assets/tech-stack.svg" width="100%" alt="Retro CRT menu cycling through Python, TypeScript, ROS, Azure, Git, GitHub and GitHub Actions" />
 </p>
 
 <h3 align="center">🤖 AI Tools & Editors</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude Code" />
-  <img src="https://img.shields.io/badge/GitHub%20Copilot-8957E5?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="GitHub Copilot" />
-  <img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor" />
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
-  <br/>
-  <img src="https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green" />
-  <img src="https://img.shields.io/badge/google%20gemini-8E75B2?style=for-the-badge&logo=google%20gemini&logoColor=white" />
-  <img src="https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://raw.githubusercontent.com/afri-bit/afri-bit/main/assets/ai-tools.svg" width="100%" alt="Animated orbit of AI tools and editors around a core labeled Vision" />
 </p>
 
 <h3 align="center">🌱 Currently Learning</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white" />
-  <img src="https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white" />
+  <img src="https://raw.githubusercontent.com/afri-bit/afri-bit/main/assets/learning.svg" width="100%" alt="Animated terminals compiling Rust and running Go" />
 </p>
 
 <br/>

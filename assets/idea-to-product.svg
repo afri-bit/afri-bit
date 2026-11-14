@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260" role="img" aria-label="Animated pipeline from idea to vision to build to ship">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07041a"/><stop offset="1" stop-color="#170a36"/></linearGradient>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#7df9ff" fill-opacity=".12"/></pattern>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<clipPath id="frame"><rect width="1000" height="260" rx="16"/></clipPath>
+</defs>
+<style>
+.t{font:600 13px SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;fill:#7df9ff;letter-spacing:2px}
+.name{font:700 22px -apple-system,"Segoe UI",Helvetica,Arial,sans-serif;fill:#fff;text-anchor:middle}
+.sub{font:400 13px -apple-system,"Segoe UI",Helvetica,Arial,sans-serif;fill:#a99bd6;text-anchor:middle}
+.flow{stroke:#00f0ff;stroke-width:3;stroke-linecap:round;stroke-dasharray:3 14;animation:flow 1s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-34}}
+.flame{transform-box:fill-box;transform-origin:50% 0;animation:fl .18s ease-in-out infinite alternate}
+@keyframes fl{from{transform:scaleY(.6)}to{transform:scaleY(1.2)}}
+.rays{animation:ray 1.7s ease-in-out infinite}
+@keyframes ray{0%,100%{opacity:1}40%{opacity:.35}70%{opacity:.8}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<g clip-path="url(#frame)">
+<rect width="1000" height="260" fill="url(#bg)"/><rect width="1000" height="260" fill="url(#dots)"/>
+<text class="t" x="28" y="38">// FROM IDEA TO PRODUCT</text>
+<text class="t" x="972" y="38" text-anchor="end" opacity=".6">LOOP: ∞</text>
+<line x1="182" y1="112" x2="325" y2="112" stroke="#2b2158" stroke-width="3"/><line class="flow" x1="182" y1="112" x2="325" y2="112"/>
+<line x1="429" y1="112" x2="571" y2="112" stroke="#2b2158" stroke-width="3"/><line class="flow" x1="429" y1="112" x2="571" y2="112"/>
+<line x1="675" y1="112" x2="818" y2="112" stroke="#2b2158" stroke-width="3"/><line class="flow" x1="675" y1="112" x2="818" y2="112"/>
+<g transform="translate(130,112)">
+<circle r="62" fill="#ffe45e" opacity="0" filter="url(#blur8)"><animate attributeName="opacity" values="0;0;0.85;0;0" keyTimes="0;0;0;0.175;1" dur="8s" repeatCount="indefinite" /></circle>
+<circle r="46" fill="#0f0828" stroke="#ffe45e" stroke-width="2.5"><animate attributeName="stroke-width" values="2.5;2.5;5;2.5;2.5" keyTimes="0;0;0;0.175;1" dur="8s" repeatCount="indefinite" /></circle>
+<g class="rays" stroke="#ffe45e" stroke-width="2.5" stroke-linecap="round"><line x1="0.0" y1="-32.0" x2="0.0" y2="-40.0"/><line x1="18.4" y1="-24.4" x2="24.0" y2="-30.0"/><line x1="-18.4" y1="-24.4" x2="-24.0" y2="-30.0"/><line x1="26.0" y1="-6.0" x2="34.0" y2="-6.0"/><line x1="-26.0" y1="-6.0" x2="-34.0" y2="-6.0"/></g>
+<circle cy="-6" r="14" fill="#ffe45e" fill-opacity=".25" stroke="#ffe45e" stroke-width="3" filter="url(#glow)"/><rect x="-7" y="8" width="14" height="6" rx="2" fill="#ffe45e"/><rect x="-5" y="15" width="10" height="3" rx="1.5" fill="#ffe45e"/>
+</g>
+<text class="name" x="130" y="194">Idea</text><text class="sub" x="130" y="216">Spot the real problem</text>
+<g transform="translate(377,112)">
+<circle r="62" fill="#00f0ff" opacity="0" filter="url(#blur8)"><animate attributeName="opacity" values="0;0;0.85;0;0" keyTimes="0;0.2292;0.2667;0.4417;1" dur="8s" repeatCount="indefinite" /></circle>
+<circle r="46" fill="#0f0828" stroke="#00f0ff" stroke-width="2.5"><animate attributeName="stroke-width" values="2.5;2.5;5;2.5;2.5" keyTimes="0;0.2292;0.2667;0.4417;1" dur="8s" repeatCount="indefinite" /></circle>
+<g><animateTransform attributeName="transform" type="scale" values="1 1;1 1;1 .08;1 1;1 1" keyTimes="0;0.55;0.58;0.62;1" dur="4s" repeatCount="indefinite" /><path d="M-24,0 Q0,-22 24,0 Q0,22 -24,0Z" fill="none" stroke="#00f0ff" stroke-width="3" filter="url(#glow)"/><circle r="8" fill="#00f0ff" filter="url(#glow)"><animate attributeName="cx" values="-4;4;-4" dur="3s" repeatCount="indefinite"/></circle><circle r="3" fill="#07041a"><animate attributeName="cx" values="-4;4;-4" dur="3s" repeatCount="indefinite"/></circle></g>
+</g>
+<text class="name" x="377" y="194">Vision</text><text class="sub" x="377" y="216">Shape the direction</text>
+<g transform="translate(623,112)">
+<circle r="62" fill="#ff4fd8" opacity="0" filter="url(#blur8)"><animate attributeName="opacity" values="0;0;0.85;0;0" keyTimes="0;0.4958;0.5333;0.7083;1" dur="8s" repeatCount="indefinite" /></circle>
+<circle r="46" fill="#0f0828" stroke="#ff4fd8" stroke-width="2.5"><animate attributeName="stroke-width" values="2.5;2.5;5;2.5;2.5" keyTimes="0;0.4958;0.5333;0.7083;1" dur="8s" repeatCount="indefinite" /></circle>
+<g><animateTransform attributeName="transform" type="rotate" values="0;360" dur="6s" repeatCount="indefinite" /><circle r="17" fill="none" stroke="#ff4fd8" stroke-width="8" stroke-dasharray="6.5 2.9" filter="url(#glow)"/><circle r="13" fill="none" stroke="#ff4fd8" stroke-width="4"/><circle r="5" fill="#ff4fd8"/></g>
+</g>
+<text class="name" x="623" y="194">Build</text><text class="sub" x="623" y="216">Architect &amp; engineer</text>
+<g transform="translate(870,112)">
+<circle r="62" fill="#50fa7b" opacity="0" filter="url(#blur8)"><animate attributeName="opacity" values="0;0;0.85;0;0" keyTimes="0;0.7625;0.8;0.975;1" dur="8s" repeatCount="indefinite" /></circle>
+<circle r="46" fill="#0f0828" stroke="#50fa7b" stroke-width="2.5"><animate attributeName="stroke-width" values="2.5;2.5;5;2.5;2.5" keyTimes="0;0.7625;0.8;0.975;1" dur="8s" repeatCount="indefinite" /></circle>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0" dur="0.35s" repeatCount="indefinite" /><path d="M-6,8 L-15,19 L-6,16Z M6,8 L15,19 L6,16Z" fill="#ff4fd8"/><path d="M0,-26 C11,-14 11,6 7,16 L-7,16 C-11,6 -11,-14 0,-26Z" fill="#fff"/><circle cy="-8" r="4.5" fill="#00f0ff"/><path class="flame" d="M-4.5,17 L0,31 L4.5,17Z" fill="#ffb347" filter="url(#glow)"/></g>
+</g>
+<text class="name" x="870" y="194">Ship</text><text class="sub" x="870" y="216">Launch &amp; iterate</text>
+<g transform="translate(870,112)" fill="#50fa7b" filter="url(#glow)">
+<circle r="3" opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.8;0.801;0.95;1" dur="8s" repeatCount="indefinite" /><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 0;70 0;70 0" keyTimes="0;0.8;0.801;0.95;1" dur="8s" repeatCount="indefinite" /></circle>
+<circle r="3" opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.8;0.801;0.95;1" dur="8s" repeatCount="indefinite" /><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 0;57 41;57 41" keyTimes="0;0.8;0.801;0.95;1" dur="8s" repeatCount="indefinite" /></circle>
+<circle r="3" opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.8;0.801;0.95;1" dur="8s" repeatCount="indefinite" /><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 0;22 67;22 67" keyTimes="0;0.8;0.801;0.95;1" dur="8s" repeatCount="indefinite" /></circle>
+<circle r="3" opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.8;0.801;0.95;1" dur="8s" repeatCount="indefinite" /><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 0;-22 67;-22 67" keyTimes="0;0.8;0.801;0.95;1" dur="8s" repeatCount="indefinite" /></circle>
+<circle r="3" opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.8;0.801;0.95;1" dur="8s" repeatCount="indefinite" /><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 0;-57 41;-57 41" keyTimes="0;0.8;0.801;0.95;1" dur="8s" repeatCount="indefinite" /></circle>
+<circle r="3" opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.8;0.801;0.95;1" dur="8s" repeatCount="indefinite" /><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 0;-70 0;-70 0" keyTimes="0;0.8;0.801;0.95;1" dur="8s" repeatCount="indefinite" /></circle>
+<circle r="3" opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.8;0.801;0.95;1" dur="8s" repeatCount="indefinite" /><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 0;-57 -41;-57 -41" keyTimes="0;0.8;0.801;0.95;1" dur="8s" repeatCount="indefinite" /></circle>
+<circle r="3" opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.8;0.801;0.95;1" dur="8s" repeatCount="indefinite" /><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 0;-22 -67;-22 -67" keyTimes="0;0.8;0.801;0.95;1" dur="8s" repeatCount="indefinite" /></circle>
+<circle r="3" opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.8;0.801;0.95;1" dur="8s" repeatCount="indefinite" /><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 0;22 -67;22 -67" keyTimes="0;0.8;0.801;0.95;1" dur="8s" repeatCount="indefinite" /></circle>
+<circle r="3" opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.8;0.801;0.95;1" dur="8s" repeatCount="indefinite" /><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 0;57 -41;57 -41" keyTimes="0;0.8;0.801;0.95;1" dur="8s" repeatCount="indefinite" /></circle>
+</g>
+<circle r="7" fill="#fff" filter="url(#glow)"><animateMotion dur="8s" repeatCount="indefinite" path="M130,112 H870" keyPoints="0;1;1" keyTimes="0;.8;1" calcMode="linear"/><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.8;0.9;0.998;1" dur="8s" repeatCount="indefinite" /></circle>
+</g>
+</svg>
