@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- afri-bit: a lowercase "a" followed by the red block cursor (the bit), as in ~/afri-bit▌ -->
+  <rect width="32" height="32" rx="7" fill="#15171a"/>
+  <circle cx="11.25" cy="17.5" r="5.25" fill="none" stroke="#f4f5f6" stroke-width="3"/>
+  <path d="M16.5 12.25v10.75" stroke="#f4f5f6" stroke-width="3" stroke-linecap="round"/>
+  <rect x="19.75" y="10.75" width="6.5" height="13.75" rx="1" fill="#cf2c3a"/>
+</svg>

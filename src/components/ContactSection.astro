@@ -1,0 +1,37 @@
+---
+import type { SocialLink } from '../data/profile';
+import Arrow from './icons/Arrow.astro';
+import SocialIcon from './icons/SocialIcon.astro';
+import Rich from './Rich.astro';
+
+type Props = {
+  title: string;
+  body: string;
+  social: SocialLink[];
+};
+const { title, body, social } = Astro.props;
+---
+
+<section class="section" id="contact" aria-labelledby="contact-title">
+  <div class="container">
+    <span class="eyebrow" data-reveal>Contact</span>
+    <h2 class="contact__title" id="contact-title" data-reveal style="--i:1">{title}</h2>
+    <p class="contact__body" data-reveal style="--i:2"><Rich text={body} /></p>
+    <ul class="socials">
+      {social.map((link, i) => (
+        <li data-reveal style={`--i:${i}`}>
+          <a
+            href={link.href}
+            data-placeholder={link.placeholder ? '' : undefined}
+            target={link.placeholder || link.href.startsWith('mailto:') ? undefined : '_blank'}
+            rel={link.placeholder || link.href.startsWith('mailto:') ? undefined : 'noopener noreferrer'}
+          >
+            <span class="socials__label"><SocialIcon name={link.icon} />{link.label}</span>
+            <span class="socials__handle">{link.handle}</span>
+            <Arrow />
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>

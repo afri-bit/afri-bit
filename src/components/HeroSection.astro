@@ -1,0 +1,57 @@
+---
+import SocialIcon from './icons/SocialIcon.astro';
+import Rich from './Rich.astro';
+
+type Props = {
+  name: string;
+  location: string;
+  headline: string;
+  lede: string;
+  avatarSrc: string;
+  avatarAlt: string;
+  pronunciation: { word: string; ipa: string; meaning: string };
+  from: string;
+  to: string;
+  githubHref: string;
+};
+
+const { name, location, headline, lede, avatarSrc, avatarAlt, pronunciation, from, to, githubHref } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const avatar = /^https?:\/\//.test(avatarSrc) ? avatarSrc : `${base}${avatarSrc}`;
+---
+
+<section class="hero" id="top" aria-labelledby="hero-title">
+  <div class="container hero__grid">
+    <div>
+      <p class="hero__entry" data-reveal>
+        <span class="hero__entry-word">{pronunciation.word}</span>
+        <span class="hero__entry-ipa">{pronunciation.ipa}</span>
+        <span class="hero__entry-meaning">{pronunciation.meaning}</span>
+      </p>
+      <h1 class="hero__title" id="hero-title" data-reveal style="--i:1"><Rich text={headline} /></h1>
+      <p class="hero__shift" data-reveal style="--i:2">
+        <span class="hero__shift-from">{from}</span>
+        <span class="hero__shift-arrow" aria-hidden="true">→</span>
+        <span class="sr-only">moving to</span>
+        <span class="hero__shift-to">{to}</span>
+      </p>
+      <p class="hero__lede" data-reveal style="--i:3"><Rich text={lede} /></p>
+      <div class="hero__actions" data-reveal style="--i:4">
+        <a class="button button--solid" href="#work">See selected work</a>
+        <a class="button button--ghost" href={githubHref} target="_blank" rel="noopener noreferrer">
+          <SocialIcon name="github" /> GitHub
+        </a>
+      </div>
+    </div>
+
+    <figure class="portrait" data-reveal style="--i:2">
+      <div class="portrait__frame">
+        <img src={avatar} alt={avatarAlt} width="460" height="575" loading="eager" fetchpriority="high" decoding="async" />
+      </div>
+      <figcaption class="portrait__caption">
+        <span class="eyebrow">{name} · {location}</span>
+        <span class="eyebrow">AI enthusiast</span>
+      </figcaption>
+    </figure>
+  </div>
+</section>

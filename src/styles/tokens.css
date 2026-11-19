@@ -1,0 +1,89 @@
+/* Design tokens. One cool neutral ramp, one crimson accent plus a violet secondary, IBM Plex for text and data. */
+
+:root {
+  --font-sans: 'IBM Plex Sans', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+
+  --color-paper: #f4f5f6;
+  --color-surface: #fbfbfc;
+  --color-ink: #15171a;
+  --color-ink-soft: #3b4047;
+  --color-muted: #686e76;
+  --color-rule: #dde0e4;
+  --color-rule-strong: #b6bbc2;
+  --color-accent: #cf2c3a;
+  --color-accent-ink: #ffffff;
+  --color-focus: #2f5bd3;
+  --color-highlight: #6d3fd1;
+  --color-star: #d99a06;
+  --pipe-fill: color-mix(in srgb, var(--color-paper) 80%, transparent);
+  --pipe-glow: color-mix(in srgb, var(--color-accent) 45%, transparent);
+
+  --text-xs: 0.8125rem;
+  --text-sm: 0.9375rem;
+  --text-base: 1rem;
+  --text-md: 1.125rem;
+  --text-lg: 1.375rem;
+  --text-xl: clamp(1.75rem, 1.3rem + 1.6vw, 2.5rem);
+  --text-2xl: clamp(2.5rem, 1.6rem + 3.6vw, 4.5rem);
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-24: 6rem;
+  --space-32: 8rem;
+
+  --container: 72rem;
+  --gutter: clamp(1rem, 4vw, 2.5rem);
+  --radius: 6px;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-fast: 160ms;
+  --dur-reveal: 700ms;
+
+  --z-header: 20;
+  --z-progress: 30;
+
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --color-paper: #111315;
+    --color-surface: #181b1e;
+    --color-ink: #e8eaed;
+    --color-ink-soft: #c2c7cd;
+    --color-muted: #8a9098;
+    --color-rule: #252a2f;
+    --color-rule-strong: #3b4148;
+    --color-accent: #ff6b72;
+    --color-accent-ink: #1a0b0d;
+    --color-focus: #7fb0ff;
+    --color-highlight: #b49cff;
+    --color-star: #f2c94c;
+    --pipe-glow: color-mix(in srgb, var(--color-accent) 55%, transparent);
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme='dark'] {
+  --color-paper: #111315;
+  --color-surface: #181b1e;
+  --color-ink: #e8eaed;
+  --color-ink-soft: #c2c7cd;
+  --color-muted: #8a9098;
+  --color-rule: #252a2f;
+  --color-rule-strong: #3b4148;
+  --color-accent: #ff6b72;
+  --color-accent-ink: #1a0b0d;
+  --color-focus: #7fb0ff;
+  --color-highlight: #b49cff;
+    --color-star: #f2c94c;
+    --pipe-glow: color-mix(in srgb, var(--color-accent) 55%, transparent);
+  color-scheme: dark;
+}

@@ -1,0 +1,12 @@
+---
+type Props = { brand: string };
+const { brand } = Astro.props;
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="container site-footer__row">
+    <span>© {year} Afrizal · {brand}</span>
+    <a href="#top">Back to top ↑</a>
+  </div>
+</footer>
