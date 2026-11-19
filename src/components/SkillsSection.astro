@@ -1,0 +1,26 @@
+---
+import type { SkillGroup } from '../data/profile';
+
+type Props = { groups: SkillGroup[] };
+const { groups } = Astro.props;
+---
+
+<section class="section" id="skills" aria-labelledby="skills-title">
+  <div class="container">
+    <div class="section__head" data-reveal>
+      <span class="eyebrow">Skills</span>
+      <h2 class="section__title" id="skills-title">What I reach for.</h2>
+    </div>
+    <div class="skills-grid">
+      {groups.map((group, i) => (
+        <div class="skill-group" data-reveal style={`--i:${i}`}>
+          <span class="draw-rule" aria-hidden="true"></span>
+          <h3>{group.title}</h3>
+          <ul>
+            {group.items.map((item) => <li>{item}</li>)}
+          </ul>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

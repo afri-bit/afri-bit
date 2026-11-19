@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 128 128" role="img" aria-label="TRUSS">
+  <title>TRUSS</title>
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f272d"/>
+      <stop offset="1" stop-color="#12171b"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#tile)"/>
+  <rect x="1" y="1" width="126" height="126" rx="27" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="2"/>
+  <g transform="translate(24 22) scale(2.5)" fill="none" stroke="#e8a13a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3 25h26M3 25 9.5 9h13L29 25M9.5 9 16 25l6.5-16"/>
+  </g>
+</svg>
